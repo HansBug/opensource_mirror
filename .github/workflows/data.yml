@@ -77,4 +77,4 @@ jobs:
           max_attempts: 5
           retry_on: any
           command: |
-            python -m mirror sync -R ${{ matrix.browser }} -n ${{ matrix.browser }}
+            python -m mirror sync -R ${{ matrix.resource }} -n ${{ matrix.resource }}
